@@ -36,3 +36,11 @@ Figure 2. shows a diagram describing the system operation. Upon starting the app
  <p align="center"><strong>Figure 2.</strong> System operation diagram.
 </p>
 
+In the case of the active SM2 markers, this process cannot be performed via IR communication. Therefore, upon receiving the message, they will indicate it by turning on an LED. The addresses of these markers must be manually entered into the computer application. Once the active markers have been detected, the process can continue.
+
+Before beginning the acquisition of the trajectory of the object of interest, it is necessary to configure the active markers. After configuring the active markers, the triggering configuration is carried out, which relates to the master device. The order of these configurations is not important. Once the configuration is successfully completed, the system is ready to begin recording the object's trajectory.
+
+At the start of recording, the triggering of the active marker network must be initiated. The system supports two triggering modes: time-based triggering and external signal triggering.
+
+Time-based triggering requires the computer to send the triggering times to the master device, which then uses this data during the triggering phase. External signal triggering is performed by applying a signal to one of the master device’s pins.
+
