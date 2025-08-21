@@ -54,4 +54,19 @@ The configuration of the active markers consists of two parts, namely:
 
 After configuring the active markers, as mentioned earlier, the computer needs to send the frame triggering configuration to the master device. This configuration consists of predefined frame activation times when time-based triggering is used. If external signal triggering is employed, this configuration is not required. After configuring the master device, the acquisition of the object's trajectory can begin. The activation of the markers is performed by sending a message to start the system triggering. This message contains the type of system triggering as well as the delay for starting the triggering from the moment this message is received.
 
+### Message types
 
+
+Each message exchanged between the master and the markers follows the format shown in Table \ref{tab:formatporuke}. The message begins with a start byte (SB), followed by the source address byte (SA), destination address byte (DA), message code byte (MC), message data (MD), and ends with an end byte (EB). As shown, the size of each segment is 1 byte, except for the message data. It is established that the maximum length of the message data, together with the message code, is 8 bytes. Therefore, the data length can be up to 7 bytes and may be shorter depending on the message type.
+
+
+
+
+![Format poruke](https://github.com/user-attachments/assets/ac14fe27-98e9-41ee-83b6-8096d3176405)
+
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ac14fe27-98e9-41ee-83b6-8096d3176405" alt=" Figure 3: Format poruke" width="80%"/>
+ <p align="center"><strong>Figure 2.</strong> Message format.
+</p>
