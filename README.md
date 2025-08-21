@@ -12,7 +12,7 @@ The figure 1. illustrates the setup of the described system.
 <p align="center">
 
 <img src="https://github.com/user-attachments/assets/a66ca8bc-390f-49d9-802b-3b671a5d6c70" alt="Figure 1: Smart_markers" width="70%"/>
- <p align="center"><strong>Figure 1.</strong> System setting for acquisition of object movement trajectory
+ <p align="center"><strong>Figure 1.</strong> System setting for acquisition of object movement trajectory.
 
 </p>
 
