@@ -48,3 +48,5 @@ The configuration of the active markers consists of two parts, namely:
 - LED intensity configuration,
 - Frame configuration.
 
+**LED Intensity Configuration** is performed by sending a configuration message containing intensity values from the computer, through the master device, to the active marker. The intensity configuration consists of three parameters: the intensity of the red, green, and blue LEDs. Although it was previously stated that the intensity of the red LED is constant, the system is designed with the potential for future hardware upgrades, allowing for such changes without altering the message format.
+
