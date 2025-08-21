@@ -33,6 +33,6 @@ Figure 2. shows a diagram describing the system operation. Upon starting the app
  
 <p align="center">
   <img src="https://github.com/user-attachments/assets/185b419d-e82f-4867-b199-83c3a401bc84" alt=" Figure 2: Dijagram toka" width="80%"/>
- <p align="center"><strong>Figure 1.</strong> System operation diagram.
+ <p align="center"><strong>Figure 2.</strong> System operation diagram.
 </p>
 
