@@ -66,10 +66,7 @@ Each message exchanged between the master and the markers follows the format sho
 </p>
 
 
-The message exchanged between the computer and the master device follows the format shown in Table \ref{tab:formatpcporuke} below. The difference compared to the previous table is the byte that indicates the active marker address (AMA). This byte is included within the message data, which means that the maximum data size in this case is 6 bytes.
-
-
-![Format poruke PC_master](https://github.com/user-attachments/assets/664ce6de-a148-4a6a-a208-2047e7b8c217)
+The message exchanged between the computer and the master device follows the format shown in Table 2. below. The difference compared to the previous table is the byte that indicates the active marker address (AMA). This byte is included within the message data, which means that the maximum data size in this case is 6 bytes.
 
 
 <p align="center">
