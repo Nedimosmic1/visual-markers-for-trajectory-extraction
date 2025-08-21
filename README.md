@@ -147,6 +147,6 @@ For the purpose of communication between the master device and the active marker
 
 Communication is carried out by transmitting IR light pulses ($I_n$, $n = [0,8]$) with a duration of $\boldsymbol{T_i}$. To transmit a single byte (8 bits), 9 pulses are sent. The first pulse indicates the beginning of the byte transmission. Each bit of the byte is encoded using the time interval between consecutive pulses ($T_{Bn}$, $n = [0,8]$).
 
-The bit value "1" is encoded with a time interval of $\boldsymbol{T_1}$, while the bit value "0" is encoded with a time interval of $\boldsymbol{T_0}$. Naturally, due to potential timing discrepancies between the transmitter and the receiver, upper and lower bounds for the encoded values are defined (N (%)).
+The bit value "1" is encoded with a time interval of $\boldsymbol{T_1}$, while the bit value "0" is encoded with a time interval of $\boldsymbol{T_0}$. Naturally, due to potential timing discrepancies between the transmitter and the receiver, upper and lower bounds for the encoded values are defined (+/- N (%)).
 
 The advantage of this transmission method lies in simplified error detection. If a pulse is not received, the receiver can detect an error based on the time interval between the remaining pulses. The main drawback is the non-constant data transmission rate, which depends on the values of the transmitted bits. The minimum transmission speed is defined by the following formula:
