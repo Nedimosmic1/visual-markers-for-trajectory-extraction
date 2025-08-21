@@ -33,10 +33,9 @@ Upon starting the application, the master device, and the active markers, the ma
 
  
 
+![Dijagram_toka](https://github.com/user-attachments/assets/185b419d-e82f-4867-b199-83c3a401bc84)
 
 <p align="center">
-
-<img src="https://https://github.com/user-attachments/assets/d70624ab-23dc-4030-8339-8b5ad8413d46" alt="Smart_markers" width="70%"/>
-
+  <img src="https://github.com/user-attachments/assets/185b419d-e82f-4867-b199-83c3a401bc84" alt="Dijagram toka" width="70%"/>
 </p>
 
