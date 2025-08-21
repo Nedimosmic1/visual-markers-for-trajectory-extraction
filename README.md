@@ -82,3 +82,11 @@ The implemented messages are briefly described below.
 
 **Frame Configuration** is a message used to configure the activation times of the active marker’s LEDs during recording.
 
+The message consists of a series of elements formatted as shown in Table 3. The field NR (number of repetitions) represents the number of consecutive frames that share the same configuration. The fields nTD (n time delay) represent the activation delay times for each of the colors (R, G, and B), while the fields nTON (n time on) represent the pulse durations for each color. Each field is 1 byte in size. The maximum number of such configurations that can be sent to the marker is 255, since the size is encoded with one byte.
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2a0b7ebe-6320-43ca-98d9-cc1edcc2efc3" alt=" Table 3: konfiguracija frame" width="60%"/>
+ <p align="center"><strong> Table 3.</strong> Frame configuration format.
+</p>
+
