@@ -105,10 +105,8 @@ It can be seen that the messages for frame configuration and triggering are of v
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3a7c79e8-9583-4c84-97ed-f93b2b9c77b1" alt=" Figure 3: Vremenski dijagram" width="80%"/>
- <p align="center"><strong>Figure 3.</strong> Timing diagram of the **Long Message** protocol.
+ <p align="center"><strong>Figure 3.</strong> Timing diagram of the Long Message protocol.
 </p>
-
-
 
 
 At the start of communication, the sender transmits an RTS message (Ready to Send) to the receiver. This message contains the total number of bytes the sender intends to transmit. The sender then waits for a CTS message (Clear to Send) from the receiver. Upon successful reception of CTS, the sender transmits packets of 8 bytes containing the original message data, where the first byte is the packet sequence number.
