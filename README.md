@@ -90,3 +90,16 @@ The message consists of a series of elements formatted as shown in Table 3. The 
  <p align="center"><strong> Table 3.</strong> Frame configuration format.
 </p>
 
+**Intensity Configuration** is a message used to configure the intensity of the active marker’s LED, as described earlier. The message is sent from the master to the marker and consists of data with a length of three bytes, where each byte represents the intensity value of one of the colors (R, G, B).
+
+**Trigger Configuration** is a message consisting of n consecutive bytes, where each byte represents the time interval between two frames. The message is sent from the computer to the master device, which stores the configuration values and later uses them during the triggering process.
+
+**Trigger Start** is a message that indicates the start of triggering. The message contains the delay time before the triggering begins relative to the time the message is received (1 byte), as well as the triggering type (1 byte), whose meaning was described earlier.
+
+It can be seen that the messages for frame configuration and triggering are of variable length and are often longer than 8 bytes. To ensure more reliable and efficient transmission of these messages, a protocol similar to the (E)TP protocol has been implemented. In this work, the protocol is referred to as the Long Message Protocol and is described below.
+
+#### Long Message protocol
+
+
+
+
