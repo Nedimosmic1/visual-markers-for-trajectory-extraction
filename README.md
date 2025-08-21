@@ -3,7 +3,7 @@
 <p style="text-align: justify;">
  
  The following section outlines the implementation of the software component of the active marker system. The system is designed such that the active markers are controlled via a dedicated computer application, primarily intended for testing and evaluation purposes. In the final deployment, this application is to be integrated with a camera control and image processing system. Communication between the application and the master device is established via a serial bus. The master device consists of an Arduino Uno microcontroller coupled with a hardware module for infrared communication. Based on commands received from the computer, the master device manages the network of active markers. Each active marker functions as a slave device, receiving and executing commands issued by the master.
-The figure illustrates the setup of the described system.
+The figure 1. illustrates the setup of the described system.
 
 </p>
 
@@ -26,7 +26,7 @@ For better synthesis and analysis of the software, it is necessary to describe t
 
 ## System workflow
 
-Figure \ref{fig:procesdijagram} shows a diagram describing the system operation.
+Figure 2. shows a diagram describing the system operation.
 
 Upon starting the application, the master device, and the active markers, the master device begins sending an activity message to the active markers. If the active markers are SM1, upon receiving the master's activity message, they respond by sending a presence message back to the master. The master then forwards this message to the computer, thereby providing information about the connected active markers.
 
