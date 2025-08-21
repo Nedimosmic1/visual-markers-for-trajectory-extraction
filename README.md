@@ -123,3 +123,14 @@ Based on the above, message types have been added, with their data provided in T
  <p align="center"><strong> Table 4.</strong> Types of LMP messages and brief description.
 </p>
 
+Based on the described scenario, finite state diagrams were created for the receiver and the transmitter (shown in Figure 4.) involved in communication via the LMP. These diagrams served as the basis for the development of the software LMP module.
+
+![Konacni_automat](https://github.com/user-attachments/assets/c48d30b4-8579-4423-9a47-5db8adc17592)
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3a7c79e8-9583-4c84-97ed-f93b2b9c77b1" alt=" Figure 4: Dijagram FSM" width="80%"/>
+ <p align="center"><strong>Figure 4.</strong> Finite state machine diagrams for LMP (a- sender, b - receiver).
+</p>
+
+
