@@ -22,3 +22,5 @@ Based on the above, the software component of the entire system can be divided i
     - Software for Active Markers System
 
 For better synthesis and analysis of the software, it is necessary to describe the system's operation process and its functionalities.
+
+## Proces rada sistema
