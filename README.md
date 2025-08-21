@@ -132,3 +132,6 @@ Based on the described scenario, finite state diagrams were created for the rece
 </p>
 
 
+# Physical layer of IR communication
+
+
