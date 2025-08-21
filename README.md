@@ -115,6 +115,8 @@ After sending the last packet, the sender sends an END message indicating the en
 
 If either device delays the response longer than the maximum allowed time, the connection is terminated without sending a termination message to the other device. In the event of any other error, the device sends an ABB message (Abort) to terminate the packet exchange.
 
+Based on the above, message types have been added, with their data provided in Table 3.
+
 
 
 
