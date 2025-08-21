@@ -50,3 +50,8 @@ The configuration of the active markers consists of two parts, namely:
 
 **LED Intensity Configuration** is performed by sending a configuration message containing intensity values from the computer, through the master device, to the active marker. The intensity configuration consists of three parameters: the intensity of the red, green, and blue LEDs. Although it was previously stated that the intensity of the red LED is constant, the system is designed with the potential for future hardware upgrades, allowing for such changes without altering the message format.
 
+**Frame Configuration** involves setting the activation time and pulse duration of each LED for every frame during the object recording process. For each frame, it is possible to define the LED activation delay relative to the triggering time, as well as the duration of the LED being turned on. This is done by sending a frame configuration message.
+
+After configuring the active markers, as mentioned earlier, the computer needs to send the frame triggering configuration to the master device. This configuration consists of predefined frame activation times when time-based triggering is used. If external signal triggering is employed, this configuration is not required.
+
+
