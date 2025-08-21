@@ -46,5 +46,5 @@ Time-based triggering requires the computer to send the triggering times to the 
 The configuration of the active markers consists of two parts, namely:
 
 - LED intensity configuration,
-- Frame configuration
+- Frame configuration.
 
