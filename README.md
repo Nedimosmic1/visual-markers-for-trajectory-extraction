@@ -32,10 +32,8 @@ Upon starting the application, the master device, and the active markers, the ma
 
 
  
-
-![Dijagram_toka](https://github.com/user-attachments/assets/185b419d-e82f-4867-b199-83c3a401bc84)
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/185b419d-e82f-4867-b199-83c3a401bc84" alt="Dijagram toka" width="70%"/>
+  <img src="https://github.com/user-attachments/assets/185b419d-e82f-4867-b199-83c3a401bc84" alt=" Figure 2: Dijagram toka" width="70%"/>
+ <p align="center"><strong>Figure 1.</strong> System operation diagram.
 </p>
 
