@@ -135,3 +135,15 @@ Based on the described scenario, finite state diagrams were created for the rece
 # Physical layer of IR communication
 
 
+For the purpose of communication between the master device and the active markers, a physical layer for infrared communication was developed. The implemented protocol is similar to the IR Remote Control protocol. Data is transmitted byte by byte. A timing diagram of the transmission of a single byte is shown in Figure 5.
+
+
+
+
+![Dijagram IR kanala](https://github.com/user-attachments/assets/847bbace-2a64-4fba-aabb-f901fa04259f)
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c48d30b4-8579-4423-9a47-5db8adc17592" alt=" Figure 5: Dijagram FSM" width="80%"/>
+ <p align="center"><strong>Figure 5.</strong> Timing diagram of sending one byte via IR channel.
+</p>
