@@ -115,8 +115,15 @@ After sending the last packet, the sender sends an END message indicating the en
 
 If either device delays the response longer than the maximum allowed time, the connection is terminated without sending a termination message to the other device. In the event of any other error, the device sends an ABB message (Abort) to terminate the packet exchange.
 
-Based on the above, message types have been added, with their data provided in Table 3.
+Based on the above, message types have been added, with their data provided in Table 4.
 
 
 
+![Tipovi_LMP_poruka](https://github.com/user-attachments/assets/dde7229c-d66e-475d-9435-d3a3fece4f5c)
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dde7229c-d66e-475d-9435-d3a3fece4f5c" alt=" Table 4: Tipovi LMP poruka" width="60%"/>
+ <p align="center"><strong> Table 4.</strong> Types of LMP messages and brief description.
+</p>
 
