@@ -153,7 +153,7 @@ The advantage of this transmission method lies in simplified error detection. If
 
 
 <div align="center">
-  <img src="https://latex.codecogs.com/png.image?\dpi{100}f%20=%20\frac{1}{9T_i%20+%208\max\{T_1,%20T_0\}}%20[bps]" alt="Transmission rate formula"/>
+  <img src="https://latex.codecogs.com/png.image?\dpi{120}f%20=%20\frac{1}{9T_i%20+%208\max\{T_1,%20T_0\}}%20[bps]" alt="Transmission rate formula"/>
 </div>
 
 
