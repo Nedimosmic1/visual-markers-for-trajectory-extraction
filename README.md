@@ -151,11 +151,14 @@ The bit value "1" is encoded with a time interval of $\boldsymbol{T_1}$, while t
 
 The advantage of this transmission method lies in simplified error detection. If a pulse is not received, the receiver can detect an error based on the time interval between the remaining pulses. The main drawback is the non-constant data transmission rate, which depends on the values of the transmitted bits. The minimum transmission speed is defined by the following formula:
 
-![Transmission rate formula](https://latex.codecogs.com/png.image?\dpi{120}f%20=%20\frac{1}{9T_i%20+%208\max\{T_1,%20T_0\}}%20[bps])
-
 
 <div align="center">
-  <img src="https://latex.codecogs.com/png.image?\dpi{150}f%20=%20\frac{1}{9T_i%20+%208\max\{T_1,%20T_0\}}%20[bps]" alt="Transmission rate formula"/>
+  <img src="https://latex.codecogs.com/png.image?\dpi{100}f%20=%20\frac{1}{9T_i%20+%208\max\{T_1,%20T_0\}}%20[bps]" alt="Transmission rate formula"/>
 </div>
 
+
+Where:  
+- *Ti* is the duration of each IR pulse  
+- *T1* is the interval for bit "1"  
+- *T0* is the interval for bit "0"
 
