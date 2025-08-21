@@ -4,4 +4,6 @@ The figure illustrates the setup of the described system.
 
 
 
-![Smart_markers](https://github.com/user-attachments/assets/a66ca8bc-390f-49d9-802b-3b671a5d6c70)  width="400" height="300"
+![Smart_markers](https://github.com/user-attachments/assets/a66ca8bc-390f-49d9-802b-3b671a5d6c70)  
+
+<img src="https://github.com/user-attachments/assets/a66ca8bc-390f-49d9-802b-3b671a5d6c70" alt="Smart_markers" width="400"/>
