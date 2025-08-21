@@ -26,9 +26,7 @@ For better synthesis and analysis of the software, it is necessary to describe t
 
 ## System workflow
 
-Figure 2. shows a diagram describing the system operation.
-
-Upon starting the application, the master device, and the active markers, the master device begins sending an activity message to the active markers. If the active markers are SM1, upon receiving the master's activity message, they respond by sending a presence message back to the master. The master then forwards this message to the computer, thereby providing information about the connected active markers.
+Figure 2. shows a diagram describing the system operation. Upon starting the application, the master device, and the active markers, the master device begins sending an activity message to the active markers. If the active markers are SM1, upon receiving the master's activity message, they respond by sending a presence message back to the master. The master then forwards this message to the computer, thereby providing information about the connected active markers.
 
 
 
