@@ -100,6 +100,14 @@ It can be seen that the messages for frame configuration and triggering are of v
 
 ## Long Message protocol
 
+**The Long Message Protocol** (LMP) operates similarly to the (E)TP protocol. It is a protocol designed for transmitting data whose length exceeds the maximum packet size allowed by the communication channel. The data is divided into multiple smaller packets before being sent. The timing diagram of the messages is shown in Figure 3.
+
+At the start of communication, the sender transmits an RTS message (Ready to Send) to the receiver. This message contains the total number of bytes the sender intends to transmit. The sender then waits for a CTS message (Clear to Send) from the receiver. Upon successful reception of CTS, the sender transmits packets of 8 bytes containing the original message data, where the first byte is the packet sequence number.
+
+After sending the last packet, the sender sends an END message indicating the end of transmission. Following this, the receiver replies to the sender with an ACK message, confirming successful (or unsuccessful) reception of the packets.
+
+If either device delays the response longer than the maximum allowed time, the connection is terminated without sending a termination message to the other device. In the event of any other error, the device sends an ABB message (Abort) to terminate the packet exchange.
+
 
 
 
