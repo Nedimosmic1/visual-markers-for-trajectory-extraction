@@ -161,7 +161,7 @@ The advantage of this transmission method lies in simplified error detection. If
 
 
 Where:  
-- *Ti* is the duration of each IR pulse  
-- *T_1* is the interval for bit "1"  
-- *T_0* is the interval for bit "0"
+- T<sub>i</sub> is the duration of each IR pulse  
+- T<sub>1</sub> is the interval for bit "1"  
+- T<sub>0</sub> is the interval for bit "0"
 
