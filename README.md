@@ -151,7 +151,7 @@ The bit value "1" is encoded with a time interval of $\boldsymbol{T_1}$, while t
 
 The advantage of this transmission method lies in simplified error detection. If a pulse is not received, the receiver can detect an error based on the time interval between the remaining pulses. The main drawback is the non-constant data transmission rate, which depends on the values of the transmitted bits. The minimum transmission speed is defined by the following formula:
 
-<br><br><br>
+<br>
 
 
 <div align="center">
