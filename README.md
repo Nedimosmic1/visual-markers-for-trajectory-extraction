@@ -57,16 +57,22 @@ After configuring the active markers, as mentioned earlier, the computer needs t
 ### Message types
 
 
-Each message exchanged between the master and the markers follows the format shown in Table \ref{tab:formatporuke}. The message begins with a start byte (SB), followed by the source address byte (SA), destination address byte (DA), message code byte (MC), message data (MD), and ends with an end byte (EB). As shown, the size of each segment is 1 byte, except for the message data. It is established that the maximum length of the message data, together with the message code, is 8 bytes. Therefore, the data length can be up to 7 bytes and may be shorter depending on the message type.
-
-
-
-
-
-
+Each message exchanged between the master and the markers follows the format shown in Table 1. The message begins with a start byte (SB), followed by the source address byte (SA), destination address byte (DA), message code byte (MC), message data (MD), and ends with an end byte (EB). As shown, the size of each segment is 1 byte, except for the message data. It is established that the maximum length of the message data, together with the message code, is 8 bytes. Therefore, the data length can be up to 7 bytes and may be shorter depending on the message type.
 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ac14fe27-98e9-41ee-83b6-8096d3176405" alt=" Figure 3: Format poruke" width="80%"/>
- <p align="center"><strong> Table 1.</strong> Message format.
+ <p align="center"><strong> Table 1.</strong> Message format between master and marker.
+</p>
+
+
+The message exchanged between the computer and the master device follows the format shown in Table \ref{tab:formatpcporuke} below. The difference compared to the previous table is the byte that indicates the active marker address (AMA). This byte is included within the message data, which means that the maximum data size in this case is 6 bytes.
+
+
+![Format poruke PC_master](https://github.com/user-attachments/assets/664ce6de-a148-4a6a-a208-2047e7b8c217)
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/664ce6de-a148-4a6a-a208-2047e7b8c217" alt=" Table 2: Format poruke PC_master" width="80%"/>
+ <p align="center"><strong> Table 2.</strong> Message format between computer and master.
 </p>
