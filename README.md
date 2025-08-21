@@ -73,3 +73,12 @@ The message exchanged between the computer and the master device follows the for
   <img src="https://github.com/user-attachments/assets/664ce6de-a148-4a6a-a208-2047e7b8c217" alt=" Table 2: Format poruke PC_master" width="60%"/>
  <p align="center"><strong> Table 2.</strong> Message format between computer and master.
 </p>
+
+The implemented messages are briefly described below.
+
+**Master Presence** is a type of message through which the master device notifies the slaves (active markers) in the network of its presence. This indicates that the user intends to start the trajectory acquisition process. In this way, the active markers initiate their initial configuration (initialization). The message is sent every two seconds during the process, except during triggering, when it is paused.
+
+**Marker Presence** is a message sent by an active marker once (the first time after receiving the master presence message in the network). This message informs the master of the active marker’s address in the network, as well as the total number of active markers connected.
+
+**Frame Configuration** is a message used to configure the activation times of the active marker’s LEDs during recording.
+
