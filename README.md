@@ -23,4 +23,15 @@ Based on the above, the software component of the entire system can be divided i
 
 For better synthesis and analysis of the software, it is necessary to describe the system's operation process and its functionalities.
 
-## Proces rada sistema
+## System workflow
+
+Figure \ref{fig:procesdijagram} shows a diagram describing the system operation.
+
+Upon starting the application, the master device, and the active markers, the master device begins sending an activity message to the active markers. If the active markers are SM1, upon receiving the master's activity message, they respond by sending a presence message back to the master. The master then forwards this message to the computer, thereby providing information about the connected active markers.
+
+<p align="center">
+![Dijagram_toka](https://github.com/user-attachments/assets/6c74ef20-d8f0-4b13-a8d7-cf2a84b3942a)
+
+</p>
+
+
