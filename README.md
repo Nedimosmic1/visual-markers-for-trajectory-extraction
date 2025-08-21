@@ -32,5 +32,11 @@ Upon starting the application, the master device, and the active markers, the ma
 
 
  
-![Dijagram_toka](https://github.com/user-attachments/assets/d70624ab-23dc-4030-8339-8b5ad8413d46)
+
+
+<p align="center">
+
+<img src="https://[github.com/user-attachments/assets/a66ca8bc-390f-49d9-802b-3b671a5d6c70](https://github.com/user-attachments/assets/d70624ab-23dc-4030-8339-8b5ad8413d46)" alt="Smart_markers" width="70%"/>
+
+</p>
 
