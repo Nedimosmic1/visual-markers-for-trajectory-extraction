@@ -150,3 +150,6 @@ Communication is carried out by transmitting IR light pulses ($I_n$, $n = [0,8]$
 The bit value "1" is encoded with a time interval of $\boldsymbol{T_1}$, while the bit value "0" is encoded with a time interval of $\boldsymbol{T_0}$. Naturally, due to potential timing discrepancies between the transmitter and the receiver, upper and lower bounds for the encoded values are defined (+/- N (%)).
 
 The advantage of this transmission method lies in simplified error detection. If a pulse is not received, the receiver can detect an error based on the time interval between the remaining pulses. The main drawback is the non-constant data transmission rate, which depends on the values of the transmitted bits. The minimum transmission speed is defined by the following formula:
+
+![Transmission rate formula](https://latex.codecogs.com/png.image?\dpi{200}f%20=%20\frac{1}{9T_i%20+%208\max\{T_1,%20T_0\}}%20[bps])
+
