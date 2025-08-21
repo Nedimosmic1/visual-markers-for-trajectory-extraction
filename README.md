@@ -118,12 +118,8 @@ If either device delays the response longer than the maximum allowed time, the c
 Based on the above, message types have been added, with their data provided in Table 4.
 
 
-
-![Tipovi_LMP_poruka](https://github.com/user-attachments/assets/dde7229c-d66e-475d-9435-d3a3fece4f5c)
-
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dde7229c-d66e-475d-9435-d3a3fece4f5c" alt=" Table 4: Tipovi LMP poruka" width="60%"/>
+  <img src="https://github.com/user-attachments/assets/dde7229c-d66e-475d-9435-d3a3fece4f5c" alt=" Table 4: Tipovi LMP poruka" width="80%"/>
  <p align="center"><strong> Table 4.</strong> Types of LMP messages and brief description.
 </p>
 
