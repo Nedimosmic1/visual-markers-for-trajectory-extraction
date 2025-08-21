@@ -62,11 +62,11 @@ Each message exchanged between the master and the markers follows the format sho
 
 
 
-![Format poruke](https://github.com/user-attachments/assets/ac14fe27-98e9-41ee-83b6-8096d3176405)
+
 
 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ac14fe27-98e9-41ee-83b6-8096d3176405" alt=" Figure 3: Format poruke" width="80%"/>
- <p align="center"><strong>Figure 2.</strong> Message format.
+ <p align="center"><strong> Table 1.</strong> Message format.
 </p>
