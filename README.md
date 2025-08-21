@@ -140,10 +140,7 @@ For the purpose of communication between the master device and the active marker
 
 
 
-![Dijagram IR kanala](https://github.com/user-attachments/assets/847bbace-2a64-4fba-aabb-f901fa04259f)
-
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c48d30b4-8579-4423-9a47-5db8adc17592" alt=" Figure 5: Dijagram FSM" width="80%"/>
+  <img src="https://github.com/user-attachments/assets/847bbace-2a64-4fba-aabb-f901fa04259f" alt=" Figure 5: Dijagram FSM" width="80%"/>
  <p align="center"><strong>Figure 5.</strong> Timing diagram of sending one byte via IR channel.
 </p>
