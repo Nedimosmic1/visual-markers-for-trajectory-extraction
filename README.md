@@ -43,4 +43,8 @@ Before beginning the acquisition of the trajectory of the object of interest, it
 At the start of recording, the triggering of the active marker network must be initiated. The system supports two triggering modes: time-based triggering and external signal triggering.
 
 Time-based triggering requires the computer to send the triggering times to the master device, which then uses this data during the triggering phase. External signal triggering is performed by applying a signal to one of the master device’s pins.
+The configuration of the active markers consists of two parts, namely:
+
+- LED intensity configuration,
+- Frame configuration
 
