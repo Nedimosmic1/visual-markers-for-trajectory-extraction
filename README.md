@@ -52,6 +52,6 @@ The configuration of the active markers consists of two parts, namely:
 
 **Frame Configuration** involves setting the activation time and pulse duration of each LED for every frame during the object recording process. For each frame, it is possible to define the LED activation delay relative to the triggering time, as well as the duration of the LED being turned on. This is done by sending a frame configuration message.
 
-After configuring the active markers, as mentioned earlier, the computer needs to send the frame triggering configuration to the master device. This configuration consists of predefined frame activation times when time-based triggering is used. If external signal triggering is employed, this configuration is not required.
+After configuring the active markers, as mentioned earlier, the computer needs to send the frame triggering configuration to the master device. This configuration consists of predefined frame activation times when time-based triggering is used. If external signal triggering is employed, this configuration is not required. After configuring the master device, the acquisition of the object's trajectory can begin. The activation of the markers is performed by sending a message to start the system triggering. This message contains the type of system triggering as well as the delay for starting the triggering from the moment this message is received.
 
 
