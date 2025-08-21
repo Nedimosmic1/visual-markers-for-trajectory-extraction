@@ -17,8 +17,8 @@ The figure illustrates the setup of the described system.
 
 Na osnovu navedenog, softverska komponenta cjelokupnog sistema može podijeliti na tri dijela:
 
-    * računarska aplikacija za upravljanje sistemom aktivnih markera,
-   * softver Master uređaja,
-    * softver Aktivnih markera.
+    * računarska aplikacija za upravljanje sistemom aktivnih markera
+   * softver Master uređaja
+    * softver Aktivnih markera
 
 Zbog bolje sinteze i analize softvera potrebno je opisati proces rada sistema, te njegove funkcionalnosti.
